@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            margin-top:10%;
+        }
+      
+    </style>
+    
+</head>
+<body>
+    
+    <form style="border:2px solid black; padding:40px; background-color:aqua; height:400px; width:500px;">
+        
+        
+        
+        <h1><b>SignUp</b></h1>
+        
+        <input type="text" id="username" placeholder="Username" name="username" required><br><br>
+       
+        
+        <input type="text" id="email" placeholder="Email" name="email" required><br><br>
+        
+        
+        <input type="password" id="passw" placeholder="Password" required name="passw" pattern=".{8,}" ><br><br>
+        
+        
+        <input type="password" id="pass"  placeholder="Confirm Password" required name="pass" pattern=".{8,}" ><br><br>
+        
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">By Creating an account.I agree to Terms and conditions</label><br><br>
+        <input  style="color:white; background-color:blue; " type="submit"  value="Create Account" formaction="./login.html"><br><br>
+        <span>Already have an account?</span>
+        <a style="color:blueviolet" href="./login.html">Login</a>
+    
+      
+
+
+
+    </form>
+   
+
+</body>
+</html>
